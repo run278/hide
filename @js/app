@@ -103,7 +103,7 @@ connectBtn.addEventListener('click', async () => {
         } else {
           console.log('Minting succeed', transactionId)
           statusp.innerText = 'Minting failed';
-          checkoutBtn.innerText = 'Try again'  
+          checkoutBtn.innerText = 'Error 505: Try again'  
         }
       })
     })
